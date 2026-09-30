@@ -1,29 +1,47 @@
 # Fundamentos de programação
 
-Meu caderno de estudos da base da programação. Vou revisando cada assunto do zero,
-resolvendo exercícios e anotando o que entendi com as minhas palavras.
+Quando eu comecei, muita coisa só fez sentido porque alguém tinha deixado um
+repositório ou uma explicação simples na internet. Este é o meu jeito de devolver
+isso: um caderno com a base da programação, explicada do jeito que eu gostaria de
+ter lido no primeiro semestre.
 
-Os exemplos são em Python, porque deixa a lógica mais visível. A parte de banco de dados é em SQL.
+Cada assunto tem três partes. A anotação explica o conceito e o que costuma
+confundir no começo. Os exercícios mostram o conceito em código. E os testes
+conferem que o código faz o que a anotação diz.
 
-## Trilha
-
-1. Lógica: variáveis, condicionais e laços
-2. Funções e recursão
-3. Estruturas de dados: listas, pilhas, filas, dicionários e árvores
-4. Algoritmos: busca, ordenação e complexidade (Big-O)
-5. Orientação a objetos
-6. Banco de dados: modelagem, SQL, índices e transações
-7. HTTP e APIs REST
-8. Git além do básico
-9. Testes automatizados
-10. Segurança básica (OWASP)
-11. Arquitetura: camadas e SOLID
-
-Em cada pasta ficam os exercícios e, conforme eu for revisando, um `anotacoes.md` com o que
-aprendi e onde errei.
+Os exemplos são em Python, porque deixa a lógica mais visível. A parte de banco de
+dados vai ser em SQL.
 
 ## Como rodar
 
+Precisa de Python 3.12 e pytest.
+
+```bash
+pip install pytest
+python -m pytest -q
 ```
+
+Para ver os exercícios rodando:
+
+```bash
 python 01-logica/exercicios.py
 ```
+
+## Trilha
+
+| # | Assunto | Estado |
+|---|---|---|
+| 01 | [Lógica: variáveis, condicionais e laços](01-logica/anotacoes.md) | feito |
+| 02 | Funções e recursão | próximo |
+| 03 | Estruturas de dados: listas, pilhas, filas, dicionários e árvores | |
+| 04 | Algoritmos: busca, ordenação e complexidade | |
+| 05 | Orientação a objetos | |
+| 06 | Banco de dados: modelagem, SQL, índices e transações | |
+| 07 | HTTP e APIs REST | |
+| 08 | Git além do básico | |
+| 09 | Testes automatizados | |
+| 10 | Segurança básica (OWASP) | |
+| 11 | Arquitetura: camadas e SOLID | |
+
+Se você está começando e algo aqui não ficou claro, abre uma issue. Se ficou
+confuso para você, provavelmente ficou para mais gente.
