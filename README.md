@@ -16,7 +16,8 @@ vai ser em SQL.
 
 ## Como rodar
 
-Precisa de Python 3.12 e pytest.
+Precisa de Python 3.12 e pytest. Para as partes em C, do gcc (no Windows, o MinGW);
+sem ele, os testes de C são pulados.
 
 ```bash
 pip install pytest
@@ -36,8 +37,8 @@ python 02-funcoes-e-recursao/exercicios.py
 |---|---|---|
 | 01 | [Lógica: variáveis, condicionais e laços](01-logica/anotacoes.md) | feito |
 | 02 | [Funções e recursão](02-funcoes-e-recursao/anotacoes.md) | feito |
-| 03 | Memória: como o computador guarda os dados (em C) | próximo |
-| 04 | Estruturas de dados: listas, pilhas, filas, dicionários e árvores (Python e C) | |
+| 03 | [Memória: como o computador guarda os dados (em C)](03-memoria/anotacoes.md) | feito |
+| 04 | Estruturas de dados: listas, pilhas, filas, dicionários e árvores (Python e C) | próximo |
 | 05 | Algoritmos: busca, ordenação e complexidade | |
 | 06 | Orientação a objetos | |
 | 07 | Banco de dados: modelagem, SQL, índices e transações | |
