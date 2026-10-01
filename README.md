@@ -29,6 +29,7 @@ Para ver os exercícios rodando:
 ```bash
 python 01-logica/exercicios.py
 python 02-funcoes-e-recursao/exercicios.py
+python 04-estruturas-de-dados/estruturas.py
 ```
 
 ## Trilha
@@ -38,8 +39,8 @@ python 02-funcoes-e-recursao/exercicios.py
 | 01 | [Lógica: variáveis, condicionais e laços](01-logica/anotacoes.md) | feito |
 | 02 | [Funções e recursão](02-funcoes-e-recursao/anotacoes.md) | feito |
 | 03 | [Memória: como o computador guarda os dados (em C)](03-memoria/anotacoes.md) | feito |
-| 04 | Estruturas de dados: listas, pilhas, filas, dicionários e árvores (Python e C) | próximo |
-| 05 | Algoritmos: busca, ordenação e complexidade | |
+| 04 | [Estruturas de dados: listas, pilhas, filas, dicionários e árvores (Python e C)](04-estruturas-de-dados/anotacoes.md) | feito |
+| 05 | Algoritmos: busca, ordenação e complexidade | próximo |
 | 06 | Orientação a objetos | |
 | 07 | Banco de dados: modelagem, SQL, índices e transações | |
 
